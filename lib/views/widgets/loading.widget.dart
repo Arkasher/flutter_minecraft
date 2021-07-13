@@ -1,3 +1,4 @@
+import 'package:mc_launcher/constants/locale_constants.dart';
 import 'package:mc_launcher/controllers/loading.controller.dart';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
@@ -15,7 +16,7 @@ class LoadingWidget extends GetView<LoadingController> {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text("loading".tr,
+              Text(LocaleConstants.LOADING.tr,
                   style: TextStyle(
                       fontFamily: 'Minecraft',
                       fontSize: 100,
