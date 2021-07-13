@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:mc_launcher/controllers/loading.controller.dart';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';

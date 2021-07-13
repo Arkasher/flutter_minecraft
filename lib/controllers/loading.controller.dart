@@ -1,9 +1,7 @@
 import 'dart:async';
 
 import 'package:get/get.dart';
-import 'package:mc_launcher/constants/routes.constants.dart';
 import 'package:mc_launcher/services/user.service.dart';
-import 'package:mc_launcher/views/launcher_view.dart';
 
 class LoadingController extends GetxController {
 
@@ -27,8 +25,6 @@ class LoadingController extends GetxController {
   Future<void> startLoading() async {
     isLogged.value = await userService.isLogged();
     actualProggress.value = 100;
-    Get.toNamed(RoutesConstants.LOGIN);
-
   }
 
   void startPointTasks() {
