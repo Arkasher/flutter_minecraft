@@ -15,7 +15,7 @@ class LoadingWidget extends GetView<LoadingController> {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text("LOADING",
+              Text("loading".tr,
                   style: TextStyle(
                       fontFamily: 'Minecraft',
                       fontSize: 100,
