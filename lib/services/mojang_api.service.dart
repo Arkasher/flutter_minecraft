@@ -4,8 +4,8 @@ import 'package:get/get.dart';
 
 import 'package:http/http.dart' as http;
 
-import 'package:mc_launcher/constants/mojang_api_constants.dart';
-import 'package:mc_launcher/constants/preferences_constants.dart';
+import 'package:mc_launcher/constants/mojang_api.constants.dart';
+import 'package:mc_launcher/constants/preferences.constants.dart';
 import 'package:mc_launcher/models/user.model.dart';
 import 'package:mc_launcher/repositories/preferences.repository.dart';
 import 'package:mc_launcher/repositories/user.repository.dart';

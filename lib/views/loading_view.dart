@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:mc_launcher/constants/image_constants.dart';
+import 'package:mc_launcher/constants/image.constants.dart';
 import 'package:mc_launcher/controllers/loading.controller.dart';
 import 'package:mc_launcher/utils/image.util.dart';
 
