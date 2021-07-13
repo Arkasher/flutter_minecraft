@@ -50,5 +50,5 @@ Future<void> initializePreferences() async {
 }
 
 Future<void> initializeWindow() async {
-  await DesktopWindow.setFullScreen(true);
+
 }
