@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
+        fontFamily: 'Minecraft'
       ),
       home: LoadingView(),
       routes: RouteUtil.routes,

@@ -62,9 +62,6 @@ class LoginView extends GetView<LoginController> {
                           enabledBorder: InputBorder.none,
                         ),
                         keyboardType: TextInputType.emailAddress,
-                        style: new TextStyle(
-                          fontFamily: "Minecraft",
-                        ),
                       ),
                     ),
                   ),
@@ -97,9 +94,6 @@ class LoginView extends GetView<LoginController> {
                           enabledBorder: InputBorder.none,
                         ),
                         keyboardType: TextInputType.emailAddress,
-                        style: new TextStyle(
-                          fontFamily: "Minecraft",
-                        ),
                       ),
                     ),
                   ),

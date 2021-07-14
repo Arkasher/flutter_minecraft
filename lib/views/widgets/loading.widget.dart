@@ -18,7 +18,6 @@ class LoadingWidget extends GetView<LoadingController> {
             children: [
               Text(LocaleConstants.LOADING.tr,
                   style: TextStyle(
-                      fontFamily: 'Minecraft',
                       fontSize: 100,
                       color: Colors.black)),
               SizedBox(
@@ -29,7 +28,6 @@ class LoadingWidget extends GetView<LoadingController> {
                 child: Obx(() => Text(
                       controller.points.value,
                       style: TextStyle(
-                          fontFamily: 'Minecraft',
                           fontSize: 100,
                           color: Colors.black),
                     )),
@@ -45,7 +43,6 @@ class LoadingWidget extends GetView<LoadingController> {
             percent: controller.actualProggress.value / 100,
             center: Text(controller.actualProggress.value.toString() + "%",
                 style: TextStyle(
-                    fontFamily: 'Minecraft',
                     fontSize: 40,
                     color: Colors.black)),
             linearStrokeCap: LinearStrokeCap.butt,
