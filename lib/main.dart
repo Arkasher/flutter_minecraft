@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hive/hive.dart';
 import 'package:mc_launcher/constants/boxes.constants.dart';
+import 'package:mc_launcher/controllers/launcher_home.controller.dart';
 import 'package:mc_launcher/controllers/loading.controller.dart';
 import 'package:mc_launcher/controllers/login.controller.dart';
 import 'package:mc_launcher/repositories/preferences.repository.dart';
@@ -43,6 +44,7 @@ void initializeServices() {
 void initializeControllers() {
   Get.put(LoadingController());
   Get.put(LoginController());
+  Get.put(LauncherHomeController());
 }
 
 Future<void> initializePreferences() async {

@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print("haudshduasd");
     return GetMaterialApp(
       title: 'Minecraft Launcher',
       translations: Messages(),
