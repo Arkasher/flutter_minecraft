@@ -10,10 +10,16 @@ class Messages extends Translations {
 
   Map<String, String> get ptBR => {
     LocaleConstants.LOADING: 'CARREGANDO',
+    LocaleConstants.LOGIN: 'EMAIL',
+    LocaleConstants.PASSWORD: 'SENHA',
+    LocaleConstants.SIGN_IN: 'ENTRAR',
   };
 
   Map<String, String> get enUS => {
     LocaleConstants.LOADING: 'LOADING',
+    LocaleConstants.LOGIN: 'EMAIL',
+    LocaleConstants.PASSWORD: 'PASSWORD',
+    LocaleConstants.SIGN_IN: 'SIGN IN',
   };
 
 }

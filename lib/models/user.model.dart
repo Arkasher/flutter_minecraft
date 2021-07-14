@@ -7,7 +7,7 @@ class UserModel extends Model {
   final String uuid;
   final String username;
   final String nickname;
-  final Map availableProfiles;
+  final List<dynamic> availableProfiles;
 
   UserModel(
       {required this.clientToken,

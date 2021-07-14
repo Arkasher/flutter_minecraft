@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:hive/hive.dart';
 import 'package:mc_launcher/constants/boxes.constants.dart';
 import 'package:mc_launcher/controllers/loading.controller.dart';
+import 'package:mc_launcher/controllers/login.controller.dart';
 import 'package:mc_launcher/repositories/preferences.repository.dart';
 import 'package:mc_launcher/repositories/user.repository.dart';
 import 'package:mc_launcher/services/mojang_api.service.dart';
@@ -41,6 +42,7 @@ void initializeServices() {
 
 void initializeControllers() {
   Get.put(LoadingController());
+  Get.put(LoginController());
 }
 
 Future<void> initializePreferences() async {

@@ -24,4 +24,12 @@ class PreferencesRepository {
   Future<bool> setStringList(String key, List<String> value) {
     return _sharedPreferences.setStringList(key, value);
   }
+
+  bool has(String key) {
+    return _sharedPreferences.get(key) != null;
+  }
+
+  Object? get(String key) {
+    return _sharedPreferences.get(key);
+  }
 }

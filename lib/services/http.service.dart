@@ -8,6 +8,7 @@ class HttpService {
   HttpService({required this.url});
 
   Future<http.Response>? post(String endpoint, Map body) {
-    return http.post(Uri.parse(url + endpoint), body: jsonEncode(body));
+    return http.post(Uri.parse(url + endpoint),
+        headers: {"Content-Type": "application/json"}, body: jsonEncode(body));
   }
 }
